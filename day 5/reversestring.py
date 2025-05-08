@@ -1,8 +1,8 @@
-def reverse (x):
-    reverse_s = ""
-    for i in x :
-        reverse_s += i
-        return reverse_s   
+X=str(input("Enter Your String: "))
 
-x = input()
-reverse(x)
+def reverse():
+    Y=""
+    for i in range (-1,-len(X)-1,-1):
+        Y+=X[i]
+    print(Y)
+reverse()
